@@ -1,4 +1,4 @@
-FROM python:3.9.7-alpine
+FROM python:3.10.4-alpine
 
 COPY requirements.txt requirements.txt
 COPY hello.py hello.py
